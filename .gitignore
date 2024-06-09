@@ -85,3 +85,4 @@ lint/tmp/
 keystore.properties
 .idea
 
+app/release/
