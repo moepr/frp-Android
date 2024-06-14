@@ -1,0 +1,11 @@
+serverAddr = "xxxxxxxx.top"
+serverPort = 0
+dnsServer = "223.5.5.5:53"
+auth.token = "xxxxxxxxxxxxx"
+
+[[proxies]]
+name = "test-tcp"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 6000

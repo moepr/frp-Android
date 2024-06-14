@@ -36,7 +36,7 @@ android {
         buildConfigField("String", "FrpVersion", '"0.51.1"')
         buildConfigField("String", "FrpcFileName", '"libfrpc.so"')
         buildConfigField("String", "LogFileName", '"frpc.log"')
-        buildConfigField("String", "ConfigFileName", '"config.ini"')
+        buildConfigField("String", "ConfigFileName", '"config.toml"')
     }
 
     buildTypes {
@@ -65,7 +65,7 @@ android {
         abi {
             enable true
             reset()
-            include "arm64-v8a", "x86_64", "armeabi-v7a"
+            include "arm64-v8a"
             universalApk true
         }
     }
