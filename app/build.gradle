@@ -33,7 +33,7 @@ android {
 
         signingConfig signingConfigs.AceKeystore
 
-        buildConfigField("String", "FrpVersion", '"0.51.1"')
+        buildConfigField("String", "FrpVersion", '"0.58.0"')
         buildConfigField("String", "FrpcFileName", '"libfrpc.so"')
         buildConfigField("String", "LogFileName", '"frpc.log"')
         buildConfigField("String", "ConfigFileName", '"config.toml"')
